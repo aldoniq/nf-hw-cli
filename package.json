@@ -1,0 +1,46 @@
+{
+  "name": "nf-hw-cli",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldoniq/nf-hw-cli.git"
+  },
+  "author": "aldoniq",
+  "license": "ISC",
+  "bin": {
+    "nf-hw-cli": "index.js"
+  },
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^18.12.0",
+    "airtable": "^0.11.4",
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "clear": "^0.1.0",
+    "cli-infinity-progress": "^0.6.7",
+    "cli-spinner": "^0.2.10",
+    "cli-spinners": "^2.6.1",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "dotenv": "^16.0.1",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.4",
+    "inquirer-autocomplete-prompt": "^2.0.0",
+    "inquirer-search-list": "^1.2.6",
+    "lodash": "^4.17.21",
+    "log-update": "^5.0.1",
+    "minimist": "^1.2.6",
+    "ora": "^6.1.0",
+    "prompt-choices": "^5.0.0",
+    "prompt-radio": "^1.2.1",
+    "simple-git": "^3.7.1",
+    "terminal-overwrite": "^2.0.1",
+    "touch": "^3.1.0",
+    "yargs": "13.2"
+  }
+}
